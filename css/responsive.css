@@ -22,7 +22,7 @@
 
   #logo h1 {
     width: 35px;
-    height 35px;
+    height: 35px;
   }
 
   #logo h2 {
@@ -31,5 +31,11 @@
 
   #social {
     top: 72px;
+  }
+}
+
+@media only screen and (max-wdith: 800px) {
+  #navbar nav a {
+    font-size: 0.9em;
   }
 }
